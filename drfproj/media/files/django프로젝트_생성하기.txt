@@ -1,0 +1,30 @@
+django 프로젝트 만들기
+
+1. 가상환경 생성 
+python -m venv myvenv
+
+2. 가상환경 열기
+source myvenv/Scripts/activate
+
+3. 장고 설치하기
+
+pip install django
+
+4. 프로젝트 생성하기
+
+django-admin startproject projectname
+
+5. 프로젝트 폴더로 들어가기
+
+cd projectname
+
+6. 앱 생성하기
+
+python manage.py startapp appname
+
+7. settings.py 에 선언하기
+
+INSTALLEDS_APPS=[
+'appname.apps.AppnameConfig',
+]
+
